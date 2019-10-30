@@ -1,12 +1,27 @@
 fileFormatVersion: 2
 guid: df8f1411a9efd2544941273a955d31e9
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Yakuzombie_diffuse
+    second: {fileID: 2800000, guid: 9f9f153068c1bf74bab4eb31baca8327, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Yakuzombie_normal
+    second: {fileID: 2800000, guid: e1c7c4786e94dde46ac67f366b32cbd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Yakuzombie_specular
+    second: {fileID: 2800000, guid: c2d7639e293d4974bb1dd0ec1ae56585, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -70,6 +85,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
