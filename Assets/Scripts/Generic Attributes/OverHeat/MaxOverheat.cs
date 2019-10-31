@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaxAmmo : GenericIntObservable
+public class MaxOverheat : GenericIntObservable
 {
 
 }

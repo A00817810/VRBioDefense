@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void GenericIntObserverMethod(int newValue);
+
 public class GenericIntObservable : MonoBehaviour
 {
-    public delegate void GenericIntObserverMethod(int newValue);
-
     private List<GenericIntObserverMethod> observers = new List<GenericIntObserverMethod>();
     [SerializeField] private int attribute;
 
@@ -24,12 +24,12 @@ public class GenericIntObservable : MonoBehaviour
 
     public List<GenericIntObserverMethod> Observers { get => observers; set => observers = value; }
 
-    public void subcribe(GenericIntObserverMethod newObserver)
+    public void Subcribe(GenericIntObserverMethod newObserver)
     {
         observers.Add(newObserver);
     }
 
-    public void unsubcribe(GenericIntObserverMethod toRemoveObserver)
+    public void Unsubcribe(GenericIntObserverMethod toRemoveObserver)
     {
         observers.Remove(toRemoveObserver);
     }

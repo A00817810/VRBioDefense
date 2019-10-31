@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void GenericFloatObserverMethod(float newValue);
+
 public class GenericFloatObservable : MonoBehaviour
 {
-    public delegate void GenericFloatObserverMethod(float newValue);
-
     private List<GenericFloatObserverMethod> observers = new List<GenericFloatObserverMethod>();
     [SerializeField] private float attribute;
 
@@ -24,12 +24,12 @@ public class GenericFloatObservable : MonoBehaviour
 
     public List<GenericFloatObserverMethod> Observers { get => observers; set => observers = value; }
 
-    public void subcribe(GenericFloatObserverMethod newObserver)
+    public void Subcribe(GenericFloatObserverMethod newObserver)
     {
         observers.Add(newObserver);
     }
 
-    public void unsubcribe(GenericFloatObserverMethod toRemoveObserver)
+    public void Unsubcribe(GenericFloatObserverMethod toRemoveObserver)
     {
         observers.Remove(toRemoveObserver);
     }
