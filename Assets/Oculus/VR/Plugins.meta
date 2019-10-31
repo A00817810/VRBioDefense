@@ -1,8 +1,14 @@
 fileFormatVersion: 2
-guid: 935bbadae4d69704c93a2c821b43c7a6
+guid: e1f06b56b3e7614419c5db24e2262938
 folderAsset: yes
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+timeCreated: 1493321336
+licenseType: Store
+DefaultImporter:
+>>>>>>> Tony
   userData: 
   assetBundleName: 
   assetBundleVariant: 
