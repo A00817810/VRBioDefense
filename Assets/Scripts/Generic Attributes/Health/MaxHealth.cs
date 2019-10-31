@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaxHealth : GenericIntObservable
+public class MaxHealth : GenericFloatObservable
 {
     
 }
