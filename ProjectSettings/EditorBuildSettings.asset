@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/TonyConstructor.unity
+    guid: d3045a5cc3b4cd141ab992bc95c84185
   m_configObjects: {}
