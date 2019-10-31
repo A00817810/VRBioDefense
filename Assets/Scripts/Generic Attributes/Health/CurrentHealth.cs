@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CurrentHealth : GenericIntObservable
+public class CurrentHealth : GenericFloatObservable
 {
 
 }
