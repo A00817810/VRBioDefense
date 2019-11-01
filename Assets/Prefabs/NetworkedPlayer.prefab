@@ -323,8 +323,8 @@ MonoBehaviour:
   throwMultiplier: 1
   createRigidBodyWhenNotTouching: 0
   controllerAttachPoint: {fileID: 2101225282}
-  controllerEvents: {fileID: 0}
-  interactTouch: {fileID: 0}
+  controllerEvents: {fileID: 995398993}
+  interactTouch: {fileID: 995398990}
 --- !u!114 &1456080585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ MonoBehaviour:
   cancelButton: 0
   bodyPhysics: {fileID: 1456080587}
   playerClimb: {fileID: 0}
-  teleporter: {fileID: 0}
+  teleporter: {fileID: 1169814453}
 --- !u!1 &1169814451
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,8 +972,8 @@ MonoBehaviour:
   throwMultiplier: 1
   createRigidBodyWhenNotTouching: 0
   controllerAttachPoint: {fileID: 1443774255}
-  controllerEvents: {fileID: 0}
-  interactTouch: {fileID: 0}
+  controllerEvents: {fileID: 1363138924}
+  interactTouch: {fileID: 1363138921}
 --- !u!114 &1456080586
 MonoBehaviour:
   m_ObjectHideFlags: 0
