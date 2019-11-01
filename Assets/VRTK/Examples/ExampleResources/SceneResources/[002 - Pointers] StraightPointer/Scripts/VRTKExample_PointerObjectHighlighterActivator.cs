@@ -44,6 +44,7 @@
         protected virtual void DestinationMarkerEnter(object sender, DestinationMarkerEventArgs e)
         {
             ToggleHighlight(e.target, hoverColor);
+            Debug.Log(e.target.name + " Enter");
             if (logEnterEvent)
             {
                 DebugLogger(VRTK_ControllerReference.GetRealIndex(e.controllerReference), "POINTER ENTER", e.target, e.raycastHit, e.distance, e.destinationPosition);
@@ -52,6 +53,7 @@
 
         private void DestinationMarkerHover(object sender, DestinationMarkerEventArgs e)
         {
+            Debug.Log(e.target.name + " Hover");
             if (logHoverEvent)
             {
                 DebugLogger(VRTK_ControllerReference.GetRealIndex(e.controllerReference), "POINTER HOVER", e.target, e.raycastHit, e.distance, e.destinationPosition);
@@ -61,6 +63,7 @@
         protected virtual void DestinationMarkerExit(object sender, DestinationMarkerEventArgs e)
         {
             ToggleHighlight(e.target, Color.clear);
+            Debug.Log(e.target.name + " Exit");
             if (logExitEvent)
             {
                 DebugLogger(VRTK_ControllerReference.GetRealIndex(e.controllerReference), "POINTER EXIT", e.target, e.raycastHit, e.distance, e.destinationPosition);
@@ -69,6 +72,7 @@
 
         protected virtual void DestinationMarkerSet(object sender, DestinationMarkerEventArgs e)
         {
+            Debug.Log(e.target.name + " Set");
             ToggleHighlight(e.target, selectColor);
             if (logSetEvent)
             {
