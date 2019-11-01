@@ -561,6 +561,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5938858005071643828, guid: 1739add752ca8a243aaf595cd1a403f6,
+        type: 3}
+      propertyPath: actualBoundaries
+      value: 
+      objectReference: {fileID: 36775512}
+    - target: {fileID: 5938858005071643828, guid: 1739add752ca8a243aaf595cd1a403f6,
+        type: 3}
+      propertyPath: actualHeadset
+      value: 
+      objectReference: {fileID: 36775511}
+    - target: {fileID: 5938858005071643828, guid: 1739add752ca8a243aaf595cd1a403f6,
+        type: 3}
+      propertyPath: actualLeftController
+      value: 
+      objectReference: {fileID: 36775510}
+    - target: {fileID: 5938858005071643828, guid: 1739add752ca8a243aaf595cd1a403f6,
+        type: 3}
+      propertyPath: actualRightController
+      value: 
+      objectReference: {fileID: 36775509}
+    - target: {fileID: 5938858005071643828, guid: 1739add752ca8a243aaf595cd1a403f6,
+        type: 3}
+      propertyPath: modelAliasLeftController
+      value: 
+      objectReference: {fileID: 36775508}
+    - target: {fileID: 5938858005071643828, guid: 1739add752ca8a243aaf595cd1a403f6,
+        type: 3}
+      propertyPath: modelAliasRightController
+      value: 
+      objectReference: {fileID: 36775507}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1739add752ca8a243aaf595cd1a403f6, type: 3}
 --- !u!1 &666434378

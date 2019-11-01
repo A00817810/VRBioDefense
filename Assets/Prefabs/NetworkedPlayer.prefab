@@ -250,7 +250,7 @@ MonoBehaviour:
   holdButtonToActivate: 1
   activateOnEnable: 1
   activationDelay: 0
-  selectionButton: 10
+  selectionButton: 14
   selectOnPress: 0
   selectionDelay: 0
   selectAfterHoverDuration: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   bodyPhysics: {fileID: 1456080587}
   coordinateAxis: 1
   primaryActivationButton: 9
-  actionModifierButton: 14
+  actionModifierButton: 10
   axisDeadzone: {x: 0.2, y: 0.2}
 --- !u!114 &1456080584
 MonoBehaviour:
@@ -899,7 +899,7 @@ MonoBehaviour:
   holdButtonToActivate: 1
   activateOnEnable: 1
   activationDelay: 0
-  selectionButton: 10
+  selectionButton: 14
   selectOnPress: 0
   selectionDelay: 0
   selectAfterHoverDuration: 0
@@ -1167,7 +1167,7 @@ MonoBehaviour:
   bodyPhysics: {fileID: 1456080587}
   coordinateAxis: 1
   primaryActivationButton: 9
-  actionModifierButton: 14
+  actionModifierButton: 10
   axisDeadzone: {x: 0.2, y: 0.2}
 --- !u!114 &461035782335001689
 MonoBehaviour:
