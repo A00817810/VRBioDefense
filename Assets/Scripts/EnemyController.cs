@@ -10,11 +10,12 @@ public class EnemyController : MonoBehaviour
     Ray enemyRay;
     RaycastHit playerDetected;
     public Color rayColor;
+    public bool follow;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Enemy = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -23,7 +24,12 @@ public class EnemyController : MonoBehaviour
         enemyRay = new Ray(transform.position, transform.forward * 10);
         Debug.DrawRay(transform.position, transform.forward * 10, rayColor);
 
-        if(Physics.Raycast(enemyRay, 10))
+        if(Physics.Raycast(transform.position, transform.forward, out playerDetected, 10.0f))
+        {
+            follow = true;
+        }
+
+        if(follow == true)
         {
             Enemy.SetDestination(Player.transform.position);
         }
