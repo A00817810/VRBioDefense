@@ -1761,7 +1761,18 @@ PrefabInstance:
     - target: {fileID: 6167425929926553275, guid: 0c8f0753bfb9fcd4ebfe272949fb2380,
         type: 3}
       propertyPath: m_PlayScene
-      value: SampleScene
+      value: LungsLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167425929926553275, guid: 0c8f0753bfb9fcd4ebfe272949fb2380,
+        type: 3}
+      propertyPath: m_GamePlayerPrefab
+      value: 
+      objectReference: {fileID: 4819342005305277953, guid: 46fbb8ba4bc9f8246bf7fd6a800a41e0,
+        type: 3}
+    - target: {fileID: 6167425929926553275, guid: 0c8f0753bfb9fcd4ebfe272949fb2380,
+        type: 3}
+      propertyPath: m_PlayerSpawnMethod
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6167425929926544121, guid: 0c8f0753bfb9fcd4ebfe272949fb2380,
         type: 3}
