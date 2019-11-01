@@ -37,14 +37,14 @@ public class NetworkPlayer : NetworkBehaviour
 
     void EnablePlayer()
     {
-        onToggleShared.Invoke(false);
+        onToggleShared.Invoke(true);
         if (isLocalPlayer)
         {
-            onToggleLocal.Invoke(false);
+            onToggleLocal.Invoke(true);
         }
         else
         {
-            onToggleRemote.Invoke(false);
+            onToggleRemote.Invoke(true);
         }
     }
 }
