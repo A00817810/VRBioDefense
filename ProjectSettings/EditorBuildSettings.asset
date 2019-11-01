@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/TonyConstructor.unity
+    guid: d3045a5cc3b4cd141ab992bc95c84185
+  - enabled: 0
     path: Assets/_Scenes/Lobby.unity
-    guid: 5d3b1efd91eed0b4891589d5ba9d4086
-  - enabled: 1
-    path: Assets/VRTK/Examples/[005 - Interactions] InteractableObjects.unity
-    guid: bece393a6b2458142935d8d7562c52d7
-  - enabled: 1
-    path: Assets/_Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: 60eb7f27ba039e84fb449fa78ae38590
+  - enabled: 0
+    path: Assets/_Scenes/LungsLevel.unity
+    guid: 63b296f360a14994d90b3f59ba34b8a8
   m_configObjects: {}
