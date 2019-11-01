@@ -3895,6 +3895,7 @@ GameObject:
   - component: {fileID: 6167425929926656137}
   - component: {fileID: 6167425929926553275}
   - component: {fileID: 6167425929926613473}
+  - component: {fileID: 2000700067}
   m_Layer: 5
   m_Name: LobbyManager
   m_TagString: Untagged
@@ -4011,7 +4012,7 @@ MonoBehaviour:
   m_PlayerPrefab: {fileID: 0}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
-  m_OfflineScene: Lobby
+  m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs: []
   m_CustomConfig: 0
@@ -4077,8 +4078,8 @@ MonoBehaviour:
     type: 3}
   m_GamePlayerPrefab: {fileID: 4819342005305277953, guid: 46fbb8ba4bc9f8246bf7fd6a800a41e0,
     type: 3}
-  m_LobbyScene: Lobby
-  m_PlayScene: SampleScene
+  m_LobbyScene: 
+  m_PlayScene: 
   lobbySlots: []
   prematchCountdown: 3
   topPanel: {fileID: 6167425929926632151}
@@ -4104,6 +4105,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0578910bbe00d43919a92c7b9893fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2000700067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167425929919555739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1518a5e598c7da244bc4850d3ae63354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickOnPointerCollision: 0
+  autoActivateWithinDistance: 0
 --- !u!1 &6167425929919557339
 GameObject:
   m_ObjectHideFlags: 0
